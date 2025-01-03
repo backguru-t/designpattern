@@ -8,7 +8,8 @@
 
 # Strategy pattern
 **Strategy 패턴**은 객체의 행동(Algorithm)을 캡슐화하여, 런타임 시 동적으로 행동을 변경할 수 있도록 하는 디자인 패턴이다. 이 패턴은 
-객체가 특정 기능을 가지는 방식(전략)을 변경할 수 있도록 유연성을 제공한다.
+객체가 특정 기능을 가지는 방식(전략)을 변경할 수 있도록 유연성을 제공한다. 
+([Duck smaple code](https://github.com/backguru-t/designpattern/tree/main/strategy) 참조)
 
 **핵심 개념**:
 - 알고리즘(또는 행동)을 인터페이스로 정의하고, 이를 구현하는 여러 클래스를 만들어 필요에 따라 교체할 수 있도록 설계한다.
